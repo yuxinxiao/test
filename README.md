@@ -35,7 +35,10 @@ esc                     退出
 
 安装react插件
 npm install babel-preset-react
+npm init
+npm install browser-sync --save-dev
 
+browser-sync start --server forest --files "forest/indx.html,forest/css/*.css"
 
 
 
